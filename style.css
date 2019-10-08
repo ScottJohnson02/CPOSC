@@ -1,0 +1,51 @@
+li{
+  display:inline;
+
+}
+ul{
+  text-align: right;
+}
+nav{
+  padding-right: 10rem;
+}
+header{
+  background-color: #f8f8f8;
+}
+nav a{
+  color: #5b5959;
+  text-decoration: none;
+  padding: .8rem;
+}
+nav a:hover{
+  background-color: #5b5959;
+  color: white;
+}
+.Calendar{
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('https://cposc.org/wp-content/uploads/2018/02/homepage-hero.jpg');
+  height:800px;
+}
+.When{
+  background-color: grey;
+  width: 33%;
+  display: inline;
+
+}
+.Where{
+  background-color: grey;
+  width: 33%;
+  display: inline;
+  margin-left: 1rem;
+}
+.date-boxes{
+  display: flex;
+  display: row;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}

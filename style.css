@@ -2,6 +2,12 @@ li{
   display:inline;
 
 }
+img{
+  display: block;
+}
+a{
+  text-decoration: none;
+}
 ul{
   text-align: right;
 }
@@ -28,7 +34,8 @@ nav a:hover{
   flex-direction: column;
   justify-content: center;
   background-image: url('https://cposc.org/wp-content/uploads/2018/02/homepage-hero.jpg');
-  height:800px;
+  background-size: cover;
+  height:752px;
 }
 .When{
   background-color: grey;
@@ -48,4 +55,129 @@ nav a:hover{
   justify-content: center;
   text-align: center;
   color: white;
+}
+.content{
+  max-width: 995px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.first{
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faq{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.faq div{
+  margin: 1rem;
+}
+.connect{
+  display: flex;
+  background-color: #24648b;
+}
+.connect h2{
+  color: white;
+  width: 50%
+}
+.connect-links{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+.connect-links a{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.Thanks{
+  display: flex;
+}
+.Thanks p{
+  width: 70%;
+}
+.Thanks a{
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding:1rem;
+  background-color: #768591;
+  text-decoration: none;
+}
+.diamond,
+.platinum,
+.silver,
+.host,
+.afterparty{
+  width: 30%;
+  margin: auto;
+}
+.gold-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+  .gold-list a{
+    width: 30%;
+    margin: 1rem;
+  }
+  .gold{
+    width: 100%;
+  }
+  .bronze-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+  .bronze-list a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 1rem;
+  }
+  .bronze{
+    width: 100%;
+  }
+  .top-header{
+    background-color: #393939;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .top-content{
+    display: flex;
+  }
+  .coc{
+    width: 25%;
+    margin-right: 40%;
+    margin-left: 10%;
+  }
+  .coc h2{
+    display: block;
+  }
+  .connect-footer{
+    width: 25%;
+  }
+  .Sponsors{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+  .top-content{
+    max-width: 995px;
+    margin: auto;
+  }
+.coc p{
+  margin-bottom: 0;
+}
+.copyright{
+  margin-top: 0;
+  text-align: center;
+  background-color: #393939;
 }

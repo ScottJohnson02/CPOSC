@@ -8,6 +8,10 @@ img{
 a{
   text-decoration: none;
 }
+a:hover{
+  color: blue;
+  text-decoration: underline;
+}
 ul{
   text-align: right;
 }
@@ -25,6 +29,7 @@ nav a{
 nav a:hover{
   background-color: #5b5959;
   color: white;
+  text-decoration: none;
 }
 .Calendar{
   text-align: center;
@@ -72,6 +77,12 @@ nav a:hover{
   margin-left: auto;
   margin-right: auto;
 }
+.lancaster a{
+  color: #768591;
+}
+.lancaster a:hover{
+  color: #428bca;
+}
 .faq div{
   margin: 1rem;
 }
@@ -88,9 +99,12 @@ nav a:hover{
   width: 50%;
   justify-content: center;
 }
+.connect-links a img{
+  width: 80%;
+}
 .connect-links a{
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 1rem 1rem;
+  width: 20%;
 }
 .Thanks{
   display: flex;
@@ -106,6 +120,10 @@ nav a:hover{
   padding:1rem;
   background-color: #768591;
   text-decoration: none;
+}
+h4{
+  margin-bottom: 0;
+  color: #24648b;
 }
 .diamond,
 .platinum,
@@ -173,11 +191,52 @@ nav a:hover{
     max-width: 995px;
     margin: auto;
   }
+  .coc a{
+    color: #768591;
+  }
 .coc p{
   margin-bottom: 0;
 }
 .copyright{
+  color: #24648c;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   margin-top: 0;
   text-align: center;
-  background-color: #393939;
+  background-color: #313131;
+}
+.copyright a{
+  color: #6a7780;
+}
+h4 {
+  border-bottom: #24648b solid;
+}
+.diamond,
+.platinum,
+.silver,
+.host,
+.afterparty{
+  margin-top: 4rem;
+}
+.drop-down{
+  position: absolute;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: grey;
+  color: white;
+}
+.drop-down li{
+  padding: 0;
+}
+
+.drop-down li a{
+  display: none;
+  background-color: none;
+}
+
+.about:hover .drop-down li a {
+  margin-top: 1rem;
+  display: block;
 }

@@ -1,3 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Economica",serif;
+}
+h2 {
+  letter-spacing: .41em;
+}
+
+p{
+  font-family: "Economica" serif;
+}
+nav:hover ul a{
+  opacity: .4;
+}
+body{
+  background-color: #e1dfd7;
+}
+
+
 li{
   display:inline;
 
@@ -26,11 +53,7 @@ nav a{
   text-decoration: none;
   padding: .8rem;
 }
-nav a:hover{
-  background-color: #5b5959;
-  color: white;
-  text-decoration: none;
-}
+
 .Calendar{
   text-align: center;
   padding: 1rem;
@@ -44,6 +67,7 @@ nav a:hover{
 }
 .When{
   background-color: grey;
+  border-radius: 8px;
   width: 33%;
   display: inline;
 
@@ -52,6 +76,7 @@ nav a:hover{
   background-color: grey;
   width: 33%;
   display: inline;
+  border-radius: 8px;
   margin-left: 1rem;
 }
 .date-boxes{
@@ -78,7 +103,7 @@ nav a:hover{
   margin-right: auto;
 }
 .lancaster a{
-  color: #768591;
+  color: #24648b;
 }
 .lancaster a:hover{
   color: #428bca;
@@ -87,24 +112,35 @@ nav a:hover{
   margin: 1rem;
 }
 .connect{
+  float: right;
+  position: relative;
+  left: 20%;
+  width: 30%;
   display: flex;
-  background-color: #24648b;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  border: solid black;
 }
+
 .connect h2{
-  color: white;
-  width: 50%
+  color: #2788a7;
+  width: 50%;
+  letter-spacing: .41em;
 }
 .connect-links{
-  display: flex;
   width: 50%;
   justify-content: center;
 }
 .connect-links a img{
-  width: 80%;
+  width: 100px;
 }
 .connect-links a{
   padding: 1rem 1rem;
   width: 20%;
+  display: block;
+  text-align: center;
 }
 .Thanks{
   display: flex;
@@ -120,6 +156,7 @@ nav a:hover{
   padding:1rem;
   background-color: #768591;
   text-decoration: none;
+  border-radius: 8px;
 }
 h4{
   margin-bottom: 0;
@@ -224,8 +261,12 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: grey;
+  background-color: #f8f8f8;
   color: white;
+  opacity: 1;
+  border-left: 1rem solid #e1dfd7;
+  border-right:1rem solid #e1dfd7;
+  border-bottom: 1rem solid #e1dfd7;
 }
 .drop-down li{
   padding: 0;
@@ -239,4 +280,19 @@ h4 {
 .about:hover .drop-down li a {
   margin-top: 1rem;
   display: block;
+  opacity: .4;
+
+}
+nav:hover ul a:hover{
+  color: #5b5959;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.about:hover .drop-down li a:hover {
+  margin-top: 1rem;
+  display: block;
+  opacity: 1;
+
+
 }
